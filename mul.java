@@ -10,7 +10,7 @@ public class guvi3 {
         {
         
 			int o=n*i;
-         System.out.println(o);
+         System.out.println(o+" ");
 	}
 	}
 
