@@ -7,16 +7,16 @@ public class oo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		String s=sc.nextLine();
-		int c=0;
-		String[] sd=s.split(" ");
-		for(int i=0;i<sd.length;i++)
-		
+		int n=sc.nextInt();
+		int f1=1,f2=0,f3,i;
+		for(i=1;i<=n;i++)
 		{
-			c++;
-			}
-		System.out.println(c);
+			f3=f1+f2;
+			f1=f2;
+			f2=f3;
+			System.out.println(f3);
 		}
-		
+	}
 }
+		
 	
