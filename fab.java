@@ -14,7 +14,7 @@ public class fab{
 			f3=f1+f2;
 			f1=f2;
 			f2=f3;
-			System.out.println(f3);
+			System.out.println(f3+" ");
 		}
 	}
 }
