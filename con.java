@@ -1,7 +1,7 @@
+import java.util.Scanner;
 
-import java.util.*;
-public class con{
-public static void main(String s[])
+public class con {
+	public static void main(String s[])
 	{ 
 		Scanner sc=new Scanner(System.in);
 		String s1=sc.nextLine();
